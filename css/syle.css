@@ -12,10 +12,10 @@ main {
     min-height: 76vh;
 }
 
-.con_card {
+/*.con_card {
     display: flex;
     justify-content: space-around;
-}
+}*/
 
 .footer {
     min-height: 12vh;
