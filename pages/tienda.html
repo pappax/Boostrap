@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/tienda.html">Tienda</a>
                         </li>
+                        <li class="nav-item">
+                            <a id="btn-carrito" class="btn btn-danger" href="#" role="button">Carrito</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -48,7 +51,25 @@
     </head>
     <main>
         <p class="text-start text-uppercase fs-2 fw-bold p-4">TIENDA</p>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="container text-center">
 
+                        <div id="shopContent" class="row row-cols-1 row-cols-md-3 g-4"></div>
+
+                    </div>
+                </div>
+                <div class="col col-lg-2">
+                    <div id="generalCarrito">
+
+                        <div id="contentCarrito" class="card-group"></div>
+                        <div id="preciototal"></div>
+                        <p><span id="total"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer">
@@ -64,7 +85,7 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 
-    <script src="../Scripts/script_tienda.js"></script>
+    <script src="../Scripts/script.js"></script>
 
 </body>
 
