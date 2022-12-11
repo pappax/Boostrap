@@ -69,7 +69,17 @@ productos.forEach((product) => {
 
 })
 
-let carrito = []
+let carrito;
+
+let carritoLS = localStorage.getItem("carrito");
+
+if (carritoLS) {
+    carrito = JSON.parse(carritoLS);
+    
+} else {
+    carrito = [];
+}
+
 
 
 
